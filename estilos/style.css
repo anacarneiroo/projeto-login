@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#06305D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px #47A0F2 ;
+    width: 270px;
+    border-radius: 20px;
+}
+
+section#img{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    height: 260px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section#formulario {
+    margin: 0px 20px 0px 20px;
+}
+
+#formulario > h1{
+    text-align: center; 
+    margin: 10px 0px 10px 0px;
+}
+
+p#principal{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.p-info,#i-enviar{
+    width: 230px;
+    margin: 10px 0px 10px 0px;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.p-info{
+    background-color:#06305D;
+} 
+
+span{
+    color: #A7D2F5;
+    margin: 8px;
+}
+
+.i-dados{
+    background-color: #A7D2F5;
+    width: 170px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+#i-enviar{
+    background-color:#A7D2F5;
+    height: 44px;
+    border-style: none;
+}
+
+#i-enviar:hover{
+    background-color: #06305D;
+    color: white;
+    cursor: pointer;
+}
+
+#p-submit{
+    text-align:center;
+    margin: 10px 0px 10px 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
